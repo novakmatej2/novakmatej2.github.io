@@ -1,0 +1,85 @@
+body {
+  font-family: 'Orbitron', sans-serif;
+  margin: 0;
+  background-color: #0a0a0a;
+  color: #00ffe7;
+  text-align: center;
+  background-image: radial-gradient(circle at top, #1a1a1a 0%, #000000 100%);
+}
+
+/* NAVBAR */
+#navbar {
+  background-color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  gap: 30px;
+  box-shadow: 0 2px 10px rgba(0, 255, 255, 0.4);
+  border-bottom: 2px solid #00ffe7;
+}
+
+#navbar a {
+  color: #00ffe7;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+#navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+#navbar ul li a {
+  padding: 10px 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s, transform 0.2s;
+}
+
+#navbar ul li a:hover {
+  background-color: #00ffe7;
+  color: black;
+  border-radius: 50px;
+  transform: scale(1.1);
+}
+
+/* NADPISY A TEXT */
+h1 {
+  color: #ffea00;
+  margin-top: 40px;
+  font-size: 2.5em;
+  text-shadow: 0 0 15px #ffea00;
+}
+
+h2, h3, p {
+  color: #00ffe7;
+  text-shadow: 0 0 8px #00ffe7;
+}
+
+.intro {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+/* OBRÁZEK */
+img {
+  margin-top: 20px;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px #00ffe7;
+}
+
+/* PATIČKA */
+footer {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #111;
+  color: #ffea00;
+  font-size: 0.9em;
+  border-top: 2px solid #00ffe7;
+}
